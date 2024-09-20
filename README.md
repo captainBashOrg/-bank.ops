@@ -41,7 +41,7 @@ class Bank:
 
 
 bk = Bank()
-lock = threading.Lock()
+
 
 
 # Т.к. методы принимают self, в потоки нужно передать сам объект класса Bank
